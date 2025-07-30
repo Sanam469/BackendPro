@@ -1,1 +1,1 @@
-export const DBNAME = "sanamyt" //dbname
+export const DB_NAME = "sanamDB"
