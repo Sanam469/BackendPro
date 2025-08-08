@@ -1,0 +1,20 @@
+    {
+  // Copilot completely off
+  "github.copilot.enable": {
+    "*": false,
+    "javascript": false,
+    "typescript": false
+  },
+  "github.copilot.inlineSuggest.enable": false,
+
+  // Turn ON VS Code's basic word suggestions
+  "editor.quickSuggestions": {
+    "other": true,     // enables suggestions in code
+    "comments": true,  // enables suggestions in comments
+    "strings": true    // enables suggestions inside strings
+  },
+
+  // Still keep them from popping on every symbol unless you type Ctrl+Space
+  "editor.suggestOnTriggerCharacters": true
+}
+
